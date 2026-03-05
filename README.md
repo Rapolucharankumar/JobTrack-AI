@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏺 JobTrack AI — Digital Clay Edition
 
-## Getting Started
+**JobTrack AI** is a tactile, visually rich job application tracker built with a **High-Fidelity Claymorphism** design system. It transforms the mundane task of job hunting into a playful, 3D-inspired digital experience.
 
-First, run the development server:
+![Design Preview](https://raw.githubusercontent.com/Rapolucharankumar/JobTrack-AI/main/public/clay-preview.png) *(Note: Add a real preview image to public folder if available)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Tactile UI (Clay Engine)**: Every component feels like physical clay, with deep multi-layered shadows, rounded surfaces, and "squishy" interactive feedback.
+- **Bento Dashboard**: A modern, organized overview of your applications using a masonry-style grid and "Stat Orbs."
+- **Duplicate Prevention**: Automatically detects if you've already applied for a role at the same company, saving you from embarrassing double-applications.
+- **Glassmorphism Accents**: Blends soft clay textures with translucent glass effects for a premium, multi-dimensional feel.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Database / Auth**: [Supabase](https://supabase.com/)
+- **Typography**: Nunito (Headings) & DM Sans (Body)
+- **Icons**: Lucide React
+- **Animations**: CSS Keyframes + Framer-like transitions
 
-## Learn More
+## 🛠️ Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+- Node.js 18+
+- A Supabase account
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rapolucharankumar/JobTrack-AI.git
+   cd JobTrack-AI
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Set up Environment Variables**
+   Create a `.env.local` file in the root:
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+## 🙌 Credits & Inspiration
+
+The idea for this project was inspired by **Geethu (Geethika)**, who pointed out a common problem many job seekers face — accidentally applying to the same company multiple times across different platforms because it's difficult to remember where and when an application was submitted.
+
+Her observation led to the concept of building a **Job Application Tracker** that helps users organize, track, and manage their job applications in one place while preventing duplicate applications.
+
+🔗 **Idea Credit:**
+**Geethika** – UI/UX Designer
+LinkedIn: [Geethika - UI/UX Designer](https://linkedin.com/in/geethika-uiux)
+
+Special thanks to Geethika for the inspiration behind this project.
+
+---
+*Built with ❤️ and Digital Clay.*
