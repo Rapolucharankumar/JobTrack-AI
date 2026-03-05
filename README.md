@@ -1,5 +1,17 @@
 # 🏺 JobTrack AI — Digital Clay Edition
 
+> [!IMPORTANT]
+> ## 🙌 Credits & Inspiration
+> The idea for this project was inspired by **Geethu (Geethika)**, who pointed out a common problem many job seekers face — accidentally applying to the same company multiple times across different platforms because it's difficult to remember where and when an application was submitted.
+> 
+> Her observation led to the concept of building a **Job Application Tracker** that helps users organize, track, and manage their job applications in one place while preventing duplicate applications.
+> 
+> 🔗 **Idea Credit:**
+> **Geethika** – UI/UX Designer  
+> LinkedIn: [Geethika - UI/UX Designer](https://linkedin.com/in/geethika-uiux)
+> 
+> Special thanks to Geethika for the inspiration behind this project.
+
 **JobTrack AI** is a tactile, visually rich job application tracker built with a **High-Fidelity Claymorphism** design system. It transforms the mundane task of job hunting into a playful, 3D-inspired digital experience.
 
 ![Design Preview](https://raw.githubusercontent.com/Rapolucharankumar/JobTrack-AI/main/public/clay-preview.png) *(Note: Add a real preview image to public folder if available)*
